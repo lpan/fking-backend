@@ -20,11 +20,11 @@ me trying to learn backend so plz chill. thx.
 ## TODOs
 Features I am gonna implement
 
-- [] Register user with email verification
-- [] On successful logins, return an auth token which will expire in 30 mins and a refresh token.
-- [] Access resources with the auth token.
-- [] Login via Facebook (keep the FB token alive)
-- ...
+- [ ] Register user with email verification
+- [ ] On successful logins, return an auth token which will expire in 30 mins and a refresh token.
+- [ ] Access resources with the auth token.
+- [ ] Login via Facebook (keep the FB token alive)
+- [ ] ...
 
 ## License
 
