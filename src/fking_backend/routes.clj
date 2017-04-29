@@ -5,4 +5,6 @@
 
 (defroutes handler
   (GET "/" [] (v/index))
+  (GET "/signin" [] (v/signin))
+  (GET "/signup" [] (v/signup))
   (route/not-found (v/not-found)))
