@@ -1,6 +1,7 @@
-(ns fking-backend.core)
+(ns fking-backend.core
+  (require [ring.adapter.jetty :as j]
+           [fking-backend.routes :refer [handler]]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn -main
+  []
+  (j/run-jetty handler {:port 3000}))
