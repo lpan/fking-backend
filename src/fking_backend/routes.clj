@@ -7,4 +7,6 @@
   (GET "/" [] (v/index))
   (GET "/signin" [] (v/signin))
   (GET "/signup" [] (v/signup))
+  ;; (GET "/users" [] (v/users))
+  ;; (GET "/user/:id" [id] (v/user id))
   (route/not-found (v/not-found)))
